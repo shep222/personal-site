@@ -1,0 +1,67 @@
+header {
+height: 100px;
+background-color: rgb(245,245,245);
+padding: 0 100px 0 100px;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+
+.nav {
+  padding-top: 25px;
+}
+
+.roller {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+ }
+
+ .info {
+   height: 175px;
+  /*width: 175px;
+  margin: 0 50px 0 50px;*/
+   background-color: rgb(245,245,245);
+ }
+.bullets {
+  margin-top: 15px;
+}
+
+.skills{
+  float: left;
+  margin-top: 5px;
+}
+.skillTitle {
+  margin-left: 60px;
+}
+.mySkills {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.skillLogos{
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+.details {
+  clear: both;
+}
+.areas {
+  height: 800px;
+}
+.moreAreas {
+  padding-top: 150px;
+  height: 800px;
+
+}
+.titles{
+  display: flex;
+  justify-content: space-around;
+}

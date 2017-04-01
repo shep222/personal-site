@@ -4,17 +4,68 @@
 <head>
     <meta charset="utf-8">
     <title>John Shepler</title>
-    <link rel="stylesheet"  type="text/css"  href="main.css">
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 
 <body>
-  <header>
-    
-  </header>
+    <header class="topHeader">
+        <h1>John Shepler Jr</h1>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active rollTo"><a href="#">Home</a></li>
+            <li role="presentation" class="rollTo"><a href="#skills">Skills</a></li>
+            <li role="presentation" class="rollTo"><a href="#about">About</a></li>
+            <li role="presentation" class="rollTo"><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </header>
+    <section class="areas">
+        <div class="roller">
+            <img src="http://placehold.it/1000x350">
+        </div>
+    </section>
+    <section class="moreAreas" id="skills">
+        <h1 class="titles">My Skills</h1>
+        <section class="mySkills">
+            <img class="skillLogos" src="./images/html5logo.png" alt="">
+            <img class="skillLogos" src="./images/csslogo.png" alt="">
+            <img class="skillLogos" src="./images/javascript-logo.png" alt="">
+            <img class="skillLogos" src="./images/nodejsLogo.png" alt="">
+            <img class="skillLogos" src="./images/angularlogo.png" alt="">
+            <img class="skillLogos" src="./images/gitLogo.png" alt="">
+            <img class="skillLogos" src="./images/OctocatLogo.png" alt="">
+        </section>
+
+    </section>
+    <section class="moreAreas" id="about">
+        <h1 class="titles">About Me</h1>
+
+
+    </section>
+    <section class="moreAreas" id="portfolio">
+        <h1 class="titles">My Portfolio</h1>
+        <section class="container-fluid bullets">
+            <article class="info col-md-2 col-md-offset-2">
+                <img class="skills" src="http://placehold.it/50x50">
+                <h4 class="skillTitle">Title</h4>
+                <p class="details">A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.</p>
+            </article>
+            <article class="info col-md-2 col-md-offset-1">
+                <img class="skills" src="http://placehold.it/50x50">
+                <h4 class="skillTitle">Title</h4>
+                <p class="details">A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.</p>
+            </article>
+            <article class="info col-md-2 col-md-offset-1">
+                <img class="skills" src="http://placehold.it/50x50">
+                <h4 class="skillTitle">Title</h4>
+                <p class="details">A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.A whole bunch of info.</p>
+            </article>
+        </section>
+    </section>
+
 
 </body>
 
