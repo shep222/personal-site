@@ -5,7 +5,6 @@ header {
 }
 
 body {
-    background-image: url('images/WRigley-Field1.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,7 +15,8 @@ body {
 }
 
 .mainAreaTitle {
-    color: white;
+    display: flex;
+    justify-content: center;
     padding-top: 120px;
 }
 
@@ -32,23 +32,23 @@ body {
 }
 
 .roller {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     margin-top: 20px;
 }
 
 .info {
-    height: 175px;
-    width: 175px;
+    height: 300px;
+    padding-left: 10px;
+    /*margin: 10px;*/
     background-color: rgb(245, 245, 245);
-
 }
 
 .bullets {
     margin-top: 15px;
 }
 
-.skills {
+.skills .portfolioImg{
     float: left;
     margin-top: 5px;
 }
@@ -58,10 +58,9 @@ body {
 }
 
 .mySkills {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+     display: flex;
+    justify-content: space-around;
+
 }
 
 .skillLogos {
@@ -83,10 +82,6 @@ body {
     height: 800px;
 }
 
-.titles {
-    display: flex;
-    justify-content: space-around;
-}
 
 .aboutSection {
     margin-left: 30px;
@@ -125,18 +120,27 @@ body {
 }
 
 .sliderSection {
-  margin-top: 20px;
-  margin-left: 18%;
-  width: 70%;
-  display: flex;
+    margin-top: 20px;
+    margin-left: 18%;
+    width: 70%;
+    display: flex;
 }
 
 .subImg {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
-#portfolio {
-  /*display: flex;*/
+.portfolioImg {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-fit: contain;
+}
+
+.techUsed {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
 }
