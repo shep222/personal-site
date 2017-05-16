@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>John Shepler</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -27,7 +27,8 @@
                 <ul id="mainNav" class="nav navbar-nav navbar-right">
                     <li role="presentation" id="linkOne" class="rollTo"><a href="#home">Home</a></li>
                     <li role="presentation" id="linkTwo" class="rollTo"><a href="#portfolio">Portfolio</a></li>
-                    <!-- <li role="presentation" class="rollTo"><a href="#about">About</a></li> -->
+                    <li role="presentation" id="linkThree" class="rollTo"><a href="#about">About</a></li>
+                    <!-- <li role="presentation" id="linkFour" class="rollTo"><a href="#about">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -57,7 +58,9 @@
             <div class="col-md-4 col-sm-6">
                 <article class="info">
                     <img class="portfolioImg" src="images/Movie Review.png">
-                    <p class="details">My Movie Reviews is a web based application that lets the user create, edit and delete movies they have seen.  Users can add a poster image from any URL and can rate the movie on any scale the users chooses. Intended for personal use only.</p>
+                    <p class="details">My Movie Reviews is a web based application that lets the user create, edit and delete movies they have seen. Users can add a poster image from any URL and can rate the movie on any scale the users chooses. Intended for personal use
+                        only.
+                    </p>
                     <h6>Technologies Include</h6>
                     <div class="">
                         <img class="techUsed" src="./images/html5logo.png" alt="">
@@ -79,7 +82,7 @@
 
                 <article class="info">
                     <img class="portfolioImg" src="images/WeDjLogo.png">
-                    <p class="details">weDJ is  a video application that allows users to form groups in order to share playlists.  Users can create new, edit and delete playlists.  Users can also search for videos using a Youtube API. Users authentication is done using Auth0.</p>
+                    <p class="details">weDJ is a video application that allows users to form groups in order to share playlists. Users can create new, edit and delete playlists. Users can also search for videos using a Youtube API. Users authentication is done using Auth0.</p>
                     <h6>Technologies Include</h6>
                     <div class="">
                         <img class="techUsed" src="./images/html5logo.png" alt="">
@@ -126,25 +129,56 @@
             </div>
         </section>
     </section>
-    <!-- <section class="moreAreas" id="about">
+    <section class="moreAreas" id="about">
         <h1 class="titles">About Me</h1>
         <section class="aboutSection">
-            <img class="myPic" src="http://placehold.it/300x300" alt="">
-            <article class="past">
+            <!-- <img class="myPic" src="http://placehold.it/300x300" alt=""> -->
+            <div class="myPictures">
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/main.jpg" alt="">
+                    <p class="description">Huge Cubs Fan</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/82nd.jpg" alt="">
+                    <p class="description">I was in the Army</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/amberjack.jpg" alt="">
+                    <p class="description">I like to Fish</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/bowhunt.jpg" alt="">
+                    <p class="description">And Hunt</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/cookout.jpg" alt="">
+                    <p class="description">Grill Master</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/hiking.jpg" alt="">
+                    <p class="description">Sometimes I Hike (Not often)</p>
+                </div>
+                <div class="polaroid">
+                    <img class="singlePic" src="myPics/troutFishing.jpg" alt="">
+                    <p class="description">Did I mention that I Fish?</p>
+                </div>
+            </div>
+            <!-- <article class="past">
                 <h3>Where I came from and what I'm doing now</h3>
-                <p>I was born in Mississippi and raised in Alabama. Right out of high school, I joined the US Navy where is served on two different aircraft carriers. After fullfilling my obligation to the Navy, I moved to Paris, TN where I picked up odd
-                    jobs while performing as a bullrider on the International Pro Rodeo Association tour. In 2005, I had a calling to serve back in the military as a paratrooper with the US Army. After my service to the country, I relocated back to the
-                    gulf coast to the small town of Ocean Springs, MS to run a family owned bar and grill named Shep's Fort Bayou Bar and Grill. During my time running the family business, I used my GI Bill to graduate the University of South Alabama
-                    with a Bachelors of Science in Information Systems. With a love of snowboarding and Denver being such a great place for tech, I decided to move to Denver in December of 2013. My first software job was working in CRM in an outdated
-                    language. In 2017, with my new passsion for software, I decided to fast track my learning by attending the Full Stack Web Development course at Galvanize.</p>
+                <p></p>
             </article>
             <article class="future">
                 <h3>Hobbies and Interests</h3>
                 <p>I enjoy spending time with my two rescue dogs, Bacchus and Rowdy. I am also an avid tennis player and golfer and enjoy hitting the slopes during the winter months. I'm a dedicated Cubs fan but really enjoy baseball as a whole. I grew up
                     spending most of my time hunting and fishing and have taken up flyfishing since I moved to Colorado. </p>
-            </article>
+            </article> -->
         </section>
-    </section> -->
+    </section>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 

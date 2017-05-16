@@ -8,12 +8,22 @@ $(document).ready(function() {
         console.log(this);
     });
 
-    //  $(".owl-slider").owlCarousel({
-    //      autoPlay: 7000, //Set AutoPlay to 3 seconds
-    //      items: 3,
-    //      itemsDesktop: [1199, 3],
-    //      itemsDesktopSmall: [979, 3]
-     //
-    //  });
-    //  $("a[rel^='prettyPhoto']").prettyPhoto();
+    $('.myPictures').slick({
+        centerMode: true,
+        arrows: true,
+        centerPadding: '-40px',
+        slidesToShow: 3,
+        responsive: [
+             {
+                breakpoint: 480,
+                settings: {
+
+
+
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 });

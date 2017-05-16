@@ -28,7 +28,7 @@ body {
     padding-top: 120px;
 }
 
-#linkOne a, #linkTwo a {
+#linkOne a, #linkTwo a, #linkThree a, #linkFour a{
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
@@ -97,7 +97,8 @@ body {
 
 .moreAreas {
     padding-top: 110px;
-    height: 800px;
+    min-height: 800px;
+    clear: both;
 }
 
 
@@ -173,4 +174,39 @@ body {
 
 .gitHubLink {
     padding-bottom: 10px;
+}
+
+.singlePic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.slick-arrow::before {
+    color: black
+}
+
+.slick-slide {
+    transform: scale(.5);
+    transition: transform .5s;
+}
+
+.slick-center {
+    transform: scale(1);
+}
+
+div.polaroid {
+  /*width: 80%;*/
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.description {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
 }
