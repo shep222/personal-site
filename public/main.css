@@ -88,6 +88,7 @@ body {
     clear: both;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    text-indent: 20px;
 }
 
 .areas {
@@ -163,4 +164,13 @@ body {
 
 .projects {
     margin-bottom: 10px;
+}
+
+.deployedLink {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gitHubLink {
+    padding-bottom: 10px;
 }
