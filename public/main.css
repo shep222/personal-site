@@ -11,7 +11,7 @@ body {
 }
 
 #logoArea {
-    color: blue;
+    color: black;
     font-size: 30px;
     font-family: 'Permanent Marker', cursive;
 }
@@ -22,11 +22,17 @@ body {
 
 .mainAreaTitle {
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 70px;
     display: flex;
     justify-content: center;
     padding-top: 120px;
 }
+
+#linkOne a, #linkTwo a {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+
 
 .titles {
     font-family: 'Permanent Marker', cursive;
@@ -80,7 +86,7 @@ body {
 
 .details {
     clear: both;
-    font-family: 'Playball', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
