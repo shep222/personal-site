@@ -10,19 +10,31 @@ body {
     background-repeat: no-repeat;
 }
 
+#logoArea {
+    color: blue;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
 .mainArea {
     padding-top: 50px;
 }
 
 .mainAreaTitle {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     padding-top: 120px;
 }
 
-.topHeader {
+.titles {
+    font-family: 'Permanent Marker', cursive;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.topHeader {
     position: sticky;
     top: 0px;
 }
@@ -31,16 +43,19 @@ body {
     padding-top: 25px;
 }
 
+.mySkills {
+    margin-top: 100px;
+}
+
 .roller {
-    /*display: flex;*/
     justify-content: center;
     margin-top: 20px;
 }
 
 .info {
-    height: 300px;
+    min-height: 300px;
+    margin-bottom: 10px;
     padding-left: 10px;
-    /*margin: 10px;*/
     background-color: rgb(245, 245, 245);
 }
 
@@ -57,20 +72,16 @@ body {
     margin-left: 60px;
 }
 
-.mySkills {
-     display: flex;
-    justify-content: space-around;
-
-}
 
 .skillLogos {
     height: 80px;
-    width: 80px;
     object-fit: contain;
 }
 
 .details {
     clear: both;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
 }
 
 .areas {
@@ -86,7 +97,6 @@ body {
 .aboutSection {
     margin-left: 30px;
     margin-right: 30px;
-    display: flex;
 }
 
 .aboutImgSection {
@@ -143,4 +153,8 @@ body {
     height: 40px;
     width: 40px;
     object-fit: contain;
+}
+
+.projects {
+    margin-bottom: 10px;
 }
