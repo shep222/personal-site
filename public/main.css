@@ -28,11 +28,10 @@ body {
     padding-top: 120px;
 }
 
-#linkOne a, #linkTwo a, #linkThree a, #linkFour a{
+#linkOne a, #linkTwo a, #linkThree a, #linkFour a {
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
-
 
 .titles {
     font-family: 'Permanent Marker', cursive;
@@ -69,7 +68,7 @@ body {
     margin-top: 15px;
 }
 
-.skills .portfolioImg{
+.skills .portfolioImg {
     float: left;
     margin-top: 5px;
 }
@@ -77,7 +76,6 @@ body {
 .skillTitle {
     margin-left: 60px;
 }
-
 
 .skillLogos {
     height: 80px;
@@ -101,10 +99,10 @@ body {
     clear: both;
 }
 
-
 .aboutSection {
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 50px;
 }
 
 .aboutImgSection {
@@ -181,7 +179,6 @@ body {
     width: 300px;
     object-fit: cover;
     margin: auto;
-
 }
 
 .slick-arrow::before {
@@ -198,15 +195,19 @@ body {
 }
 
 div.polaroid {
-  /*width: 80%;*/
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+    /*width: 80%;*/
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
 }
 
 .description {
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
-  text-align: center;
-  padding: 10px 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.myPictures {
+    margin-top: 50px;
 }
